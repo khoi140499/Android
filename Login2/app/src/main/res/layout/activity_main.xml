@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="35dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtUser"
+        android:layout_below="@+id/txtView"
+        android:hint="Username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtPass"
+        android:hint="Password"
+        android:layout_below="@+id/txtUser"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txtPass"
+        >
+        <Button
+            android:id="@+id/btnDK"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Đăng kí"
+            android:backgroundTint="#535353"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/btnQ"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="Quên mật khẩu"
+            android:backgroundTint="#535353"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Trợ giúp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#535353"
+            android:layout_marginRight="10dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txt1"
+                android:text="Cot 1"
+                android:layout_span="2"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txt2"
+                android:text="Cot 1"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txt3"
+                android:text="Cot 1"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txtt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" day la cot2"
+                />
+            <TextView
+                android:id="@+id/txtt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cot3"
+                />
+            <TextView
+                android:id="@+id/txtt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cot2"
+                />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

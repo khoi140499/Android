@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt0"
+            android:text="Hoang Dang Khoi - B17DCAT107"
+            android:fontFamily="casual"
+            android:textColor="@color/black"
+            android:layout_marginBottom="60dp"
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/anh1"
+            android:src="@drawable/nokia"
+            android:layout_below="@id/txt0"
+            />
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="30dp"
+
+            >
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: 400$"
+                android:textSize="30dp"
+                android:fontFamily="casual"
+                android:layout_marginTop="55dp"
+                />
+            <TextView
+                android:paddingTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt2"
+                android:layout_below="@id/txt1"
+                android:text="Nokia 5.1 Plus \n Demition: 720*1440 \n Published on: Aug 24th 2018\n Category: Electronics
+                \nTags: Nokia 5.1 Plus"
+                android:fontFamily="casual"
+                android:textSize="15dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/anh1"
+            >
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="HOME"
+                android:textSize="18dp"
+                android:fontFamily="casual"
+                android:backgroundTint="#AEAEAE"
+                />
+            <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="BUY NOW"
+                android:textSize="18dp"
+                android:fontFamily="casual"
+                android:backgroundTint="#AEAEAE"
+                android:layout_centerHorizontal="true"
+                />
+            <Button
+                android:id="@+id/btnDEL"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="DELTA"
+                android:textSize="18dp"
+                android:fontFamily="casual"
+                android:backgroundTint="#AEAEAE"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
